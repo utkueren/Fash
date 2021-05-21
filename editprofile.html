@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASHCO</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="editprofile.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js'></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body class="mobile"  >
+    <nav  style="z-index: 2;">
+        <div class="container nav-wrapper">
+            <div class="brand">
+                
+                <span><strong>FASHCO.</strong></span>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-list" style="z-index: 3;">
+                <li><a href="layout.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li class="active"><a href="profile.html">Profile</a></li>
+                
+                <li>
+                    <a href="login.html"><button class="btn"style="background-color: #933ded; color:white;">Login</button></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main style="z-index: 1;" >
+       
+        <div class="container" style="color: black; ">
+            <div class="row flex-lg-nowrap">
+             
+            
+              <div class="col">
+                <div class="row">
+                  <div class="col mb-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="e-profile">
+                          <div class="row">
+                            <div class="col-12 col-sm-auto mb-3">
+                              <div class="mx-auto" style="width: 140px;">
+                                <div class="d-flex justify-content-center align-items-center rounded" style="height: 140px; background-color: rgb(233, 236, 239);">
+                                  <span style="color: rgb(166, 168, 170); font: bold 8pt Arial;">140x140</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col d-flex flex-column flex-sm-row justify-content-between mb-3">
+                              <div class="text-center text-sm-left mb-2 mb-sm-0">
+                                <h4 class="pt-sm-2 pb-1 mb-0 text-nowrap">Elvira Hancock</h4>
+                                <p class="mb-0">@elvirahancock</p>
+                                
+                                
+                              </div>
+                             
+                            </div>
+                          </div>
+                          <ul class="nav nav-tabs">
+                            <li class="nav-item"><a href="" class="active nav-link">Settings</a></li>
+                          </ul>
+                          <div class="tab-content pt-3">
+                            <div class="tab-pane active">
+                              <form class="form" novalidate="">
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="row">
+                                      <div class="col">
+                                        <div class="form-group">
+                                          <label>Full Name</label>
+                                          <input class="form-control" type="text" name="name" placeholder="Elvira Hancock" value="Elvira Hancock">
+                                        </div>
+                                      </div>
+                                      <div class="col">
+                                        <div class="form-group">
+                                          <label>Username</label>
+                                          <input class="form-control" type="text" name="username" placeholder="elvirahancock" value="elvirahancock">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col">
+                                        <div class="form-group">
+                                          <label>Email</label>
+                                          <input class="form-control" type="text" placeholder="user@example.com">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col mb-3">
+                                        <div class="form-group">
+                                          <label>About</label>
+                                          <textarea class="form-control" rows="5" placeholder="My Bio"></textarea>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-12 col-sm-6 mb-3">
+                                    <div class="mb-2"><b>Change Password</b></div>
+                                    <div class="row">
+                                      <div class="col">
+                                        <div class="form-group">
+                                          <label>Current Password</label>
+                                          <input class="form-control" type="password" placeholder="••••••">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col">
+                                        <div class="form-group">
+                                          <label>New Password</label>
+                                          <input class="form-control" type="password" placeholder="••••••">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col">
+                                        <div class="form-group">
+                                          <label>Confirm <span class="d-none d-xl-inline">Password</span></label>
+                                          <input class="form-control" type="password" placeholder="••••••"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col d-flex justify-content-end">
+                                    <button class="btn btn-primary" type="submit">Save Changes</button>
+                                  </div>
+                                </div>
+                              </form>
+            
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
+                  
+                </div>
+            
+              </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-distributed" style=" bottom:0; width:100%;">
+
+        <div class="footer-right">
+
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            
+
+        </div>
+
+        <div class="footer-left">
+
+            <p class="footer-links">
+                <a class="link-1" href="layout.html">Home</a>
+
+                <a href="discover.html">Discover</a>
+
+                <a href="profile.html">Profile</a>
+
+                <a href="#">About</a>
+
+                <a href="#">Contact</a>
+            </p>
+
+            <p>Hobed Tech &copy; 2021</p>
+        </div>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
